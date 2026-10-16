@@ -8,8 +8,10 @@ combined with a small machine learning experiment that predicts average race lap
 
 The project has two parts:
 
-Historical analysis: I merged four datasets (results, races, drivers, constructors) into one clean table of about 26,000 race results and explored who wins, which teams dominate, and how much starting position matters.
-Prediction experiment: Using the FastF1 API, I pulled lap and sector data from past races, combined it with 2025 qualifying times, and trained a Gradient Boosting model to estimate each driver's average race lap time.
+### Historical analysis: 
+I merged four datasets (results, races, drivers, constructors) into one clean table of about 26,000 race results and explored who wins, which teams dominate, and how much starting position matters.
+### Prediction experiment: 
+Using the FastF1 API, I pulled lap and sector data from past races, combined it with 2025 qualifying times, and trained a Gradient Boosting model to estimate each driver's average race lap time.
 
 ## Tech Stack
 - Language: Python
